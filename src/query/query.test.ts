@@ -1,10 +1,8 @@
-import { describe, it, expect } from 'vitest';
-import { parseQueryParams } from './query';
+import {it, expect} from 'vitest';
+import {parseQueryParams} from './query';
 
 
-describe('parseQueryParams', () => {
-    it('should parse basic query parameters', () => {
-        const result = parseQueryParams('?name=John&age=30');
-        expect(result).toEqual({ name: 'John', age: '30' });
-    });
+it('should parse basic query parameters', () => {
+    const result = parseQueryParams('?name=John&age=30');
+    expect(result).toEqual({name: 'John', age: '30'});
 });

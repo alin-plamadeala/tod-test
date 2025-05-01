@@ -1,0 +1,7 @@
+{
+  "aiTdd.model": "claude-3-5-sonnet-20241022",
+  "aiTdd.temperature": 0.3,
+  "aiTdd.apiKey": "TOKEN HERE",
+  "aiTdd.nodePath": "NODE HERE",
+  "aiTdd.maxIterations": 4
+}
